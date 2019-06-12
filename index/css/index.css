@@ -1,0 +1,126 @@
+* {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+}
+.all {
+    background-color: #ff5046;
+}
+.nav {
+    width: 60rem;
+    height: 5rem;
+    margin: auto;
+    line-height: 5rem;
+}
+.li_1 {
+    display: inline-block;
+    height: 4.5rem;
+    width: 10%;
+}
+.ul_1 {
+    display: inline-block;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    width: 51rem;
+    height: 4.8rem;
+}
+.nav_a:hover {
+    color: #ffb695;
+}
+.head {
+    width: 60rem;
+    height: 10.1rem;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+}
+.head a{
+    background: url("../img/download.png")no-repeat;
+    background-position: left top;
+    font-size: 20px;
+    display: block;
+    height: 3rem;
+    width: 190px;
+    line-height: 3rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+.head a:hover {
+    color: #ffb695;
+}
+.container {
+    width: 60rem;
+    height: 25.9rem;
+    margin: auto;
+}
+.img_1 {
+    position: absolute;
+    top: 22rem;
+    left: 9rem;
+}
+.img_2 {
+    position: absolute;
+    top: 20.5rem;
+    left: 19.5rem;
+}
+.img_3 {
+    position: absolute;
+    top: 15.5rem;
+    left: 29rem;
+}
+.img_4 {
+    position: absolute;
+    top: 17.5rem;
+    left: 42rem;
+}
+.img_5 {
+    position: absolute;
+    top: 16rem;
+    left: 51rem;
+}
+.ul_2 {
+    width: 66rem;
+    height: 30rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+.li_2 {
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+.span {
+    color: black;
+    margin-top: 1rem;
+    text-align: center;
+}
+#download {
+    margin-top: 2rem;
+    width: 60rem;
+    height: 14rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../img/home_icons.png") no-repeat;
+}
+.footer{
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+.footer_head a:link{
+    font-size: 14px;
+    color: #8b8a8a;
+}
+.footer_middle span{
+    font-size: 14px;
+    color: #b2b2b2;
+}
+.footer_middle a:link{
+    font-size: 14px;
+    color: #8b8a8a;
+}
+.footer_tail a:link{
+    font-size: 14px;
+    color: #8b8a8a;
+}
