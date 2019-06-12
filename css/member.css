@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width:100%;
+    height:100%;
+    overflow-x:hidden; 
+    background:#rgb(240, 240, 240);
+}
+.red-div{
+    height:26rem;
+    background:#ff5046;
+    padding-top: 1rem;
+}
+.nav-box{
+    width:60rem;
+    height:5rem;
+    margin:0 auto;
+}
+.logo-box{
+    width:6rem;
+    height:3rem;
+    vertical-align: middle;
+    margin-top: 1rem;
+}
+.logo-img{
+    padding-top: 5px;
+}
+.words-box{
+    height: 5rem;
+    width: 51rem;
+    margin-left: 9rem;
+    margin-top:-4rem;
+   
+}
+.words-box .words-ul .words-a .words-li{
+    float:left;
+    line-height:5rem;
+    padding: 0 1rem;
+}
+.words-box .words-ul{
+    margin-left:1rem;
+}
+.words-a{
+    color:#fff;
+}
+.words-a:hover{
+    color:rgb(236, 226, 226);
+}
+.ads-box{
+    width:60rem;
+   
+    margin: 2rem auto;
+}
+.ads-flag{
+    width:37rem;
+    margin:0 auto;
+    margin-top: -2rem;
+}
+p{
+    margin-top: 1rem;
+    color:#ffe9e8;
+    font-size:20px;
+    text-align: center;
+}
+.boy{
+    display: inline-block;
+    height: 14rem;
+    margin-top: 9px;
+    margin-left: 40px;
+}
+button{
+    vertical-align: 3rem;
+    background-image: url(../img/button_bg.png);
+    width:10rem;
+    height:3rem;
+    margin-left: -19rem;
+    margin-top: 8rem;
+    border-color: white;
+    border-radius: 10rem;
+    background-position: center;
+}
+.member-a{
+    font-weight:400;
+    color:#fff;
+    font-size:18px;
+    
+}
+.girl{
+    height: 14rem;
+    margin-left: 6rem;
+}
+/* 内容1 */
+.content-box-one{
+    width:60rem;
+    height:37rem;
+    border:1px solid;
+    margin:2rem auto;
+    border: 1px solid #dadada;
+    background-color: #fff;
+    text-align: justify;
+}
+.content-box-one .one-roll .ul-one .li-one{
+    float:left;
+    padding-left:1rem;
+    padding-top:2rem;
+
+}
+.content-box-one .one-roll .ul-one{
+    margin-left:1rem;
+}
+.member-words-a{
+    color:#ff5046;
+}
+.member-words-a-black{
+    color:#333;
+}
+.score{
+    font-size: 14px;
+    color: #999;
+}
