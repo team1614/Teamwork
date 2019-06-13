@@ -1,4 +1,4 @@
-html {
+﻿html {
 	
 }
 body {
@@ -40,14 +40,14 @@ li.list-item,li.header-right-item {
 }
 .public_left{
 	display: inline-block;
-    width: 20%;
+    width: 13%;
     margin-top: 1.5rem;
     position: absolute;
 }
 .public_right{
     display: inline-block;
     float: right;
-    width: 60%;
+    width: 70%;
     position: absolute;
     margin-left: 11rem;
     height: 5rem;
@@ -86,33 +86,33 @@ ul.list-items {
     /* margin-right: auto; */
 }
 a.list-item2:hover .box-container2 {
-    display: block;
+   display: block;
     position: absolute;
-    margin-left: -14.1rem;
+    margin-left: -9.3rem;
     z-index: 999;
 }
 a.list-item3:hover .box-container3 {
     display: block;
     position: absolute;
-    margin-left: -24.4rem;
+    margin-left: -19.57rem;
     z-index: 999;
 }
 a.list-item4:hover .box-container4 {
     display: block;
     position: absolute;
-    margin-left: -36.7rem;
+    margin-left: -31.9rem;
     z-index: 999;
 }
 a.list-item5:hover .box-container5 {
     display: block;
     position: absolute;
-    margin-left: -45rem;
+    margin-left: -40.2rem;
     z-index: 999;
 }
 a.list-item6:hover .box-container6 {
     display: block;
     position: absolute;
-    margin-left: -53.3rem;
+    margin-left: -48.5rem;
     z-index: 999;
 }
 h3.tech-depart-title,h3.depart-title {
