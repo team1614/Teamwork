@@ -17,6 +17,7 @@
     display: inline-block;
     height: 4.5rem;
     width: 10%;
+    text-align: center;
 }
 .ul_1 {
     display: inline-block;
@@ -24,6 +25,12 @@
     margin-block-end: 0rem;
     width: 51rem;
     height: 4.8rem;
+}
+.a1 {
+    display: inline-block;
+    height: 4.5rem;
+    width: 3rem;
+    border-top: 3px solid white;
 }
 .nav_a:hover {
     color: #ffb695;
@@ -41,13 +48,26 @@
     font-size: 20px;
     display: block;
     height: 3rem;
-    width: 190px;
+    padding-left: 60px;
+    width: 103px;
     line-height: 3rem;
     margin: auto;
     margin-top: 1rem;
+    border-radius: 26px;
+    background-color: rgba(255,255,255,0);
 }
-.head a:hover {
-    color: #ffb695;
+.hover {
+    height: 3rem;
+    width: 163px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 26px;
+    position: absolute;
+    left: 34.4rem;
+    bottom: 25.5rem;
+    display: none;
+}
+.head a:hover .hover{
+    display: block;
 }
 .container {
     width: 60rem;
@@ -58,26 +78,31 @@
     position: absolute;
     top: 22rem;
     left: 9rem;
+    animation: img1 .7s ease-out .5s backwards;
 }
 .img_2 {
     position: absolute;
     top: 20.5rem;
     left: 19.5rem;
+    animation: img2 .7s ease-out .2s backwards;
 }
 .img_3 {
     position: absolute;
     top: 15.5rem;
     left: 29rem;
+    animation: img3 .8s linear backwards;
 }
 .img_4 {
     position: absolute;
     top: 17.5rem;
     left: 42rem;
+    animation: img4 .7s ease-out .2s backwards;
 }
 .img_5 {
     position: absolute;
     top: 16rem;
     left: 51rem;
+    animation: img5 .7s ease-out .5s backwards;
 }
 .ul_2 {
     width: 66rem;
@@ -95,12 +120,101 @@
     text-align: center;
 }
 #download {
-    margin-top: 2rem;
     width: 60rem;
     height: 14rem;
     margin-left: auto;
     margin-right: auto;
-    background: url("../img/home_icons.png") no-repeat;
+}
+.ul_3 {
+    width: 60rem;
+    height: 14rem;
+    padding-inline-start: 0px;
+}
+.li_3,.li_4,.li_5,.li_6,.li_7 {
+    width: 19%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    margin-left: 6px;
+}
+.li_4 a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-image: url(../img/icon_2.png);
+    background-position: center;
+    background-size: 93%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.li_5 a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-image: url(../img/icon_3.png);
+    background-position: center;
+    background-size: 93%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.li_6 a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-image: url(../img/icon_4.png);
+    background-position: center;
+    background-size: 93%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.li_7 a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-image: url(../img/icon_5.png);
+    background-position: center;
+    background-size: 93%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.li_3 a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-image: url(../img/icon_1.png);
+    background-size: 93%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.li_3 a:hover {
+    background-size: 100%;
+    font-size: 18px;
+    transition-duration: 0.5s;
+}
+.li_4 a:hover {
+    background-size: 100%;
+    font-size: 18px;
+    transition-duration: 0.5s;
+}
+.li_5 a:hover {
+    background-size: 100%;
+    font-size: 18px;
+    transition-duration: 0.6s;
+}
+.li_6 a:hover {
+    background-size: 100%;
+    font-size: 18px;
+    transition-duration: 0.5s;
+}
+.li_7 a:hover {
+    background-size: 100%;
+    font-size: 18px;
+    transition-duration: 0.5s;
+}
+.li_3 span,.li_4 span,.li_5 span,.li_6 span,.li_7 span {
+    position: relative;
+    top: 55%;
 }
 .footer{
     width: 100%;
