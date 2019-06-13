@@ -1,0 +1,57 @@
+body{background-color: #F0F0F0;}
+	    #page5{width: 70%;height: 62rem;margin-left:8rem ;background-color: #F0F0F0;display: flex;margin:1rem auto;}
+	    #page5_1{width: 70%;height: 60rem;background-color: #F0F0F0;margin-top:0;}
+		.left{width: 100%;height: 60rem;background-color: white;margin-top: -1rem;}
+             .left-search{width: 100%;height: 4rem;border-bottom: 1px solid silver;display: flex;margin-top: 1rem;}
+			 .left-search span{display: block;width: 8%;height: 4rem; color: gray;fmargin-left: 1rem;}
+		 	 .left-search span .icon{ width: 80%;height: 4rem;}
+		 	 .left-search a{display: block;width: 92%;height: 4rem;text-align: left;text-align: left;font-size: 1.2rem;color: grey;line-height: 4rem;}
+		 	
+		 	
+		 	
+		 	.nearbylist{width: 100%;height: 56rem;display: flex;flex-wrap: wrap;margin-top: 1rem;}
+		    .nearbylist div{width: 22%;height:10rem;float: left;margin-left: 1rem;position: relative;overflow: hidden;margin-top: 0.2rem;box-shadow: grey 1px 1px 2px;}
+		    .nearbylist span {width: 100%;height:8rem;overflow: hidden;position: relative;}
+		    .nearbylist img{width: 100%;height:7rem;}
+		    .nearbylist span .shadow{background: rgba(7,18,10,0.8);width: 100%;height:9rem;position: absolute;transition: all 0.5s linear;opacity: 0;z-index: 999;top: -8rem;left:-1rem ;}
+		    .nearbylist span:hover .shadow{opacity: 1;}
+		    .nearbylist span .shadow .icon{ width: 40%;height: 2rem;padding-top: 4.5rem;padding-left: 2.8rem;fill: white;}
+		    
+		    .nearbylist div p{position: absolute;display: block;width: 100%;height: 2rem;
+		                      background: rgba(22,22,22,0.8);top: 5.5rem;color: white;}
+		    .nearbylist div .icon{ width: 12%;height: 2rem;padding-left: 0.5rem;}
+		    .nearbylist div a{position: absolute;display: block;width: 100%;height: 2rem; top: 6rem;color: white;margin-left: 2rem;}
+		    .nearbylist div h4{   margin-top: 0.4rem;margin-left: 0.4rem;font-size: 0.8rem;}
+		    
+			 
+			 
+			  .nearbylist ul{list-style: none;margin-left: 10%;flex-wrap: nowrap;width: 100%;}
+			  .nearbylist ul li{width: 2rem;height: 2rem;float: left;margin-left; border-radius: 0.3rem;margin: 5rem auto;margin-right: 0.2rem;}
+			  .nearbylist ul li:nth-of-type(10){background: none;border: none;text-align: center;line-height: 2rem;}
+			 
+			  .nearbylist ul li a{display: block;font-size: 1rem;text-align: center;color: black;text-decoration: none;width: 2rem;height: 2rem;
+			                     background-color: #F0F0F0;border-radius: 0.3rem;text-align: center;line-height: 2rem;font-weight: 400;}
+			  
+			  .nearbylist ul li:hover a{background-color: #FF734E;color: white;}
+		      .nearbylist  ul li .icon{ width: 50%;height: 1.7rem;padding-left: 0.3rem;}
+			
+	         
+			 
+		 	
+	       #page5_2{width:28%;height: 60rem;float: left;background-color: white;margin-top: 0;margin-left: 2%;}
+	         
+	         .right-search{width:100%;height: 4rem;display: flex;border-bottom: 1px solid silver;}
+	         .right-search  span{display: block;width: 18%;height: 4rem; color: gray;border: none;}
+		 	 .right-search  span .icon{ width: 80%;height: 4rem;}
+		 	 .right-search  a{display: block;width: 82%;height: 4rem;text-align: left;text-align: left;font-size: 1.3rem;color: grey;line-height: 4rem;}
+	      
+	       #page5_2  ul{list-style: none;}
+	       #page5_2  ul li{width:100%;height: 5rem;display: flex;box-shadow: whitesmoke 1px 1px 1px;}
+	         
+		 	
+	       #page5_2  ul li span{display: block;width: 25%;height: 4rem;border-radius: 50%;overflow: hidden;margin-top: 0.5rem; margin-left: 0.5rem;}
+	       #page5_2  ul li span img{width: 100%;height: 4rem;}                    
+	       #page5_2  ul li p{display: block;width: 70%;height: 1rem;font-size: 1.1rem;color: #000000;margin-left: 0.5rem;margin-top: 0;line-height: 2.5rem;}
+	       #page5_2  ul li p:hover{color: red;}
+	       #page5_2  ul li p .icon{ width: 15%;height: 1.2rem;padding-left: 0.5rem;}
+	       #page5_2  ul li p a{font-size: 1rem;color: dimgrey;margin-top: 1rem;}
