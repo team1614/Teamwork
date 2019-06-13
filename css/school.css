@@ -6,6 +6,7 @@
 	width: 100%;
 	height: 1000px;
 	position: absolute;
+    background-color: #f6f6f6;
 }
 .big_div{
 	position: absolute;
@@ -22,7 +23,6 @@
 	display: inline-block;
     width: 20%;
     margin-top: 1.5rem;
-    display: re;
     display: relative;
     position: absolute;
 }
@@ -59,7 +59,7 @@
     position: absolute;
     top: 5rem;
     left: 12%;
-    border: 1px black solid;
+    border: 0px black solid;
 }
 .a_catalogue_name{
     width: 60%;
@@ -98,15 +98,17 @@
 }
 .a_li2_first:hover{
     color: orange;
+    z-index: 1000;
 }
 .a_div1{
     
     width: 100%;
-    height: 41rem;
+    height: 33rem;
     border: 1px #dbdddc solid;
     position: absolute;
     top: 6rem;
     left: 0;
+    background-color: white;
 }
 
 .a_h1{
@@ -125,12 +127,31 @@
 }
 .a_list{
     width: 95%;
-    height: 31rem;
-    border:1px red solid;
+    height: 27rem;
+    border:0px red solid;
     margin-left: auto;
     margin-right: auto;
 }
 .a_list1{
+    width: 100%;
+    height: 2.5rem;
+    border: 1px gray solid;
+    background-color: #dbdddc;
+    border-radius: 12px;
+    margin-top: 1rem;
+    display: block;
+}
+/*.a_li2_first:hover .a_list1{
+    display: block;
+}
+.a_li2_thrid:hover .a_list1{
+    display: none;
+}
+.a_li2_forth:hover .a_list1{
+    display: none;
+}
+*/
+.a_list4{
     width: 100%;
     height: 2.5rem;
     border: 1px gray solid;
@@ -158,7 +179,7 @@
     width: 1120%;
     height: 20rem;
     display: none;
-    border: 1px black solid;
+    border: 0px black solid;
     position: absolute;
     top: 4rem;
     left: -50rem;
@@ -173,7 +194,7 @@
 .a_div2{
     display: none;
     width: 100%;
-    height: 41rem;
+    height: 33rem;
     border: 1px #dbdddc solid;
     position: absolute;
     top: 6rem;
@@ -184,6 +205,38 @@
     color: orange;
 }
 .a_li2_second:hover .a_div2{
+    display: block;
+}
+.a_div3{
+    display: none;
+    width: 100%;
+    height: 15rem;
+    border: 1px #dbdddc solid;
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    z-index: 1000;
+}
+.a_li2_thrid:hover{
+    color: orange;
+}
+.a_li2_thrid:hover .a_div3{
+    display: block;
+}
+.a_div4{
+    display: none;
+    width: 100%;
+    height: 15rem;
+    border: 1px #dbdddc solid;
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    z-index: 1000;
+}
+.a_li2_forth:hover{
+    color: orange;
+}
+.a_li2_forth:hover .a_div4{
     display: block;
 }
 .a_span2{
@@ -280,4 +333,53 @@
 }
 .a_a8:hover .a_list1_1{
     display: block;
+}
+.a_list2{
+    width: 95%;
+    height: 27rem;
+    border:0px red solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 45rem;
+    margin-left: -6rem;
+}
+.footer_head a:link{
+    font-size: 14px;
+    color: #8b8a8a;
+}
+.span7{
+    font-size: 14px;
+    color: #b2b2b2;
+}
+.footer_middle a:link{
+    font-size: 14px;
+    color: #8b8a8a;
+}
+.footer_tail a:link{
+    font-size: 14px;
+    color: #8b8a8a;
+}
+.a9{
+    text-decoration: none;
+}
+.ul4{
+    list-style-type: none;
+    line-height: 4.8rem;
+    word-spacing: 2rem;
+}
+.li4{
+    display: inline-block;
+}
+.a10{
+    text-decoration: none;
+    color: black;
+}
+.a10:hover{
+    color: #ff6700;
 }
