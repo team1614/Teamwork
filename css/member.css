@@ -8,7 +8,7 @@ html,body{
     width:100%;
     height:100%;
     overflow-x:hidden; 
-    background:#rgb(240, 240, 240);
+    background:rgb(240, 240, 240);
 }
 .red-div{
     height:26rem;
@@ -122,3 +122,163 @@ button{
     font-size: 14px;
     color: #999;
 }
+
+/* 内容2 */
+.content-box-two{
+    width:60rem;
+    margin:1rem auto;
+    border:1px solid #dadada;
+    background-color: #fff;
+}
+.member-right-words{
+    border-left: 4px solid #ff734e;
+    font-size: 18px;
+    font-weight: normal;
+    color: #666;
+    padding-left:1rem;
+    
+}
+.member-right{
+    border-bottom: 1px solid #dadada;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+.show-ul{
+    display: inline-block;
+    margin-left:3rem;
+    margin-top: 1rem;
+}
+.show-parts{
+    position: relative;
+    width:18rem;
+    height:8rem;
+    
+   
+}
+.left-icon-box{
+    width:5.6rem;
+    height:5.6rem;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+.show-li{
+    float: left;
+}
+
+.show-left-icon{
+   
+    width: 56.8rem;
+    height: 22.7rem;
+    display:inline-block;
+    background-image:url(../img/icons.png);
+}
+.personal{
+    font-size:18px;
+    position: absolute;
+    color:#000;
+    display:inline-block;
+    margin-left: 7rem;
+    margin-top: -6rem;
+}
+.intro-box{
+    width:10rem;
+    height:5rem;
+    display: inline-block;
+    margin-left: 7rem;
+    margin-top: -5.7rem;
+    font-size: 14px;
+    color: #999;
+    vertical-align: 1rem;
+}
+.intro-box-else{
+    width:10rem;
+    height:5rem;
+    display: inline-block;
+    margin-left: 7rem;
+    margin-top: -5.7rem;
+    font-size: 14px;
+    color: #999;
+    vertical-align: 3rem;
+}
+.flash{
+    margin-left: -11.4rem;
+}
+.arts{
+    display: inline-block;
+    margin-top: -1rem;
+}
+.second{
+    margin-top: -2rem;
+    border-top: #fff;
+}
+.footer{
+    width:60rem;
+    height:32rem;
+    border:1px solid;
+    margin:0 auto;
+    background: #fff;
+    border:1px solid #dadada;
+    border-top-color: #fff;
+    margin-top: -2rem;
+}
+.range{
+    display: inline-block;
+    margin-left: -0.5rem;
+}
+.range-img{
+    width:60rem;
+    display: inline-block;
+    margin-left: 0.02rem;
+}
+.rules{
+    font-size:14px;
+    color:#999;
+
+}
+.one{
+    margin-left:-28rem;
+}
+.two{
+    margin-left:-18rem;
+}
+.three{
+    margin-left: -29.5rem;
+}
+.four{
+    margin-left:-1.5rem;
+}
+.footer-wrapper{
+    margin-left: 29rem;
+    margin-top: 2rem;
+}
+.footer_head a:link{
+	font-size: 14px;
+	color: #8b8a8a;
+}
+.e{
+	font-size: 14px;
+    color: #b2b2b2;
+}
+.change{
+    display: inline-block;
+    margin-left: -11rem;
+}
+.footer_middle a:link{
+	font-size: 14px;
+	color: #8b8a8a;
+}
+.footer_tail a:link{
+	font-size: 14px;
+	color: #8b8a8a;
+}
+.aa{
+	text-decoration: none;
+}
+/* ul{
+    list-style-type: none;
+    line-height: 4.8rem;
+    word-spacing: 2rem;
+}
+li{
+	display: inline-block;
+} */
