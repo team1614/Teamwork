@@ -15,7 +15,7 @@ html * {
 }
 .part1{
 	width: 100%;
-	height: 22rem;
+	height: 33rem;
 	margin: 0;
 	padding: 0;
 	background: rgba(255, 87, 79, 0.94);
@@ -29,37 +29,37 @@ html * {
 .part1_imglogo{
 	position: absolute;
     width: 13%;
-    margin-left: -42rem;
-    margin-top: 2rem;
+    margin-left: -63rem;
+    margin-top: 3rem;
 }
 .part1_imgcode{
-	width: 9%;
+	width: 10%;
 	position: absolute;
-    margin-top: 16rem;
-    margin-left: -33rem;
+    margin-top: 21rem;
+    margin-left: -49rem;
 }
 .iphone{
     width: 15%;
     position: absolute;
-    margin-left: -42rem;
-    margin-top: 16rem;
+    margin-left: -62rem;
+    margin-top: 21rem;
 }
 .android{
 	width: 15%;
 	position: absolute;
-    margin-left: -42rem;
-    margin-top: 19rem;
+    margin-left: -62rem;
+    margin-top: 26rem;
 }
 .word{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     position: absolute;
-    margin-top: 21rem;
-    margin-left: -32rem;
+    margin-top: 30rem;
+    margin-left: -47rem;
     color: #fff;
 }
 .part2{
 	width: 100%;
-	height: 18rem;
+	height: 28rem;
 	margin: 0;
 	padding: 0;
 }
@@ -70,7 +70,7 @@ html * {
 }
 .part3{
 	width: 100%;
-	height: 18rem;
+	height: 28rem;
 	margin: 0;
 	padding: 0;
 }
@@ -81,7 +81,7 @@ html * {
 }
 .part4{
 	width: 100%;
-	height: 18rem;
+	height: 28rem;
 	margin: 0;
 	padding: 0;
 }
@@ -92,7 +92,7 @@ html * {
 }
 .footer{
 	width: 100%;
-	height: 12rem;
+	height: 16rem;
 	margin: 0;
 	padding: 0;
 	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fb6483), to(#ff6054));
@@ -101,12 +101,13 @@ html * {
 	width: 20%;
 	position: absolute;
 	margin-left: 40%;
-	margin-top: 8rem;
+	margin-top: 10rem;
 }
 .wenzi{
 	position: absolute;
-    margin-top: 1rem;
-    margin-left: 13%;
+    margin-top: 2rem;
+    margin-left: 18%;
+    font-size: 1rem;
 }
 .footer p{
 	text-align: center;
