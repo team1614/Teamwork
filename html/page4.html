@@ -17,15 +17,15 @@
 				</div>
 				<div class="public_right">
 					<ul>
-						<li><a href="javascript void(0)">首页</a></li>
+						<li><a href="index.html">首页</a></li>
 						<li  style="border-top: 2px solid #FFFFFF;"><a href="javascript void(0)">精彩表演</a></li>
-						<li><a href="javascript void(0)">会员中心</a></li>
-						<li><a href="javascript void(0)">金币充值</a></li>
-						<li><a href="javascript void(0)">分享伴奏</a></li>
-						<li><a href="javascript void(0)">分享动图</a></li>
-						<li><a href="javascript void(0)">直播</a></li>
+						<li><a href="memeber.html">会员中心</a></li>
+						<li><a href="share.html">金币充值</a></li>
+						<li><a href="share.html">分享伴奏</a></li>
+						<li><a href="share.html">分享动图</a></li>
+						<li><a href="live.html">直播</a></li>
 						<li><a href="javascript void(0)">音乐人</a></li>
-						<li><a href="javascript void(0)">加入我们</a></li>
+						<li><a href="join.html">加入我们</a></li>
 					</ul>
 				</div>
 			</div>
@@ -45,7 +45,22 @@
 		
 		<div id="page4">
 			<div class="backgroundpic">
-				<img src="../img/publicaccount_1518082579.jpg" id="beta"  />
+				
+		        <div id="photos" class="play">
+					<a href="javascript void(0)">
+						<img class="img_flash" src="../img/publicaccount_1515056473.jpg" />
+					</a>
+					<a href="javascript void(0)">
+						<img class="img_flash" src="../img/publicaccount_1517475806.jpg"/>
+					</a>
+					<a href="javascript void(0)">
+						<img class="img_flash" src="../img/publicaccount_1518082579.jpg" />
+					</a>
+				</div>
+			
+			
+			
+			
 			</div>
 			
 			
@@ -118,6 +133,9 @@
 					<a>古天乐</a>
 				</span>
 			</div>
+			
+			
+			
 			<div class="starsearch">
 				<span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-xuanticehua"></use></svg><a>明星作品</a></span>
 				<p><a>更多</a><svg class="icon" aria-hidden="true"><use xlink:href="#icon-youtube-fill"></use></svg></p>
@@ -278,24 +296,12 @@
 					
 				</span>
 				<span>
-					<img src="../img/weibo.jpeg">					
-				</span>				
+					<img src="../img/weibo.jpeg">
+		
+				</span>
 			</div>	
 		</div>
 	</body>
-	<script>
-    //使用数组保存图片的地址
-    var imgs=["img/publicaccount_1517475806.jpg","img/publicaccount_1515056473.jpg",];
-    var index=0;
-    function qiehuan()
-    {
-        document.getElementById("beta").src=imgs[index];
-        index++;
-        if(index > 3){
-            index=0;
-                     }
-    }
-    setInterval("qiehuan()",4000);
-    </script>
-   <script  src="../js/iconfont.js"></script>
+	
+    <script src="iconfont.js"></script>
 </html>

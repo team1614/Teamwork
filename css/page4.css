@@ -1,8 +1,14 @@
-body{background-color: #F0F0F0;}
+ body{background-color: #F0F0F0;}
 			 #page4{width: 70%;height:160rem;background-color: white;margin:2rem auto;}
-			.backgroundpic{width: 95%;height: 27rem;margin:2rem auto;}
-			.backgroundpic img{width: 100%;height: 25rem;position:relative;float: none;margin-top: 2rem;}
-			
+			.backgroundpic{width: 95%;height: 25rem;text-align: center; margin: 2em auto;  overflow:hidden; }
+            .img_flash{float:left;width:58rem;height:24rem; }
+            #photos { width: calc(58rem * 3);/*---修改图片数量的话需要修改下面的动画参数*/ }
+            .play{  animation: ma 10s ease-out infinite; }
+           @keyframes ma {
+                             0%,35% {        margin-left: 0px;      }
+                             40%,65% {       margin-left: -58rem;    }
+                             70%,100% {       margin-left: -116rem;    }
+                         }
 			.topnews_searsh{width: 95%;height: 3rem;margin: auto;display: flex;justify-content: space-between;border-bottom: 1px solid silver;}
 			.topnews_searsh span{width: 20%;height: 3rem;display: flex;}
 			.topnews_searsh span .icon{ width: 15%;height: 3rem;fill: orangered;}

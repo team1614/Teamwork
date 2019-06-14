@@ -1,4 +1,4 @@
-*{
+﻿*{
     margin:0;
     padding:0;
     text-decoration: none;
@@ -49,6 +49,9 @@ html,body{
 }
 .words-a:hover{
     color:rgb(236, 226, 226);
+}
+.words-a:visited{
+    color:#fff;
 }
 .ads-box{
     width:60rem;

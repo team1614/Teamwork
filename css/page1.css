@@ -31,12 +31,12 @@
 .public_right a{
 	color: white;
 }
-.public_right a:link{
-	color: #fff;
-}
 .public_right a:hover{
 	color: #fff;
 	opacity: 0.7;
+}
+.public_right a:visited{
+	color: #fff;
 }
 .footer{
 	width: 100%;
