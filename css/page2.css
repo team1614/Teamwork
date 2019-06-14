@@ -1,0 +1,38 @@
+ body{
+	 background-color: #F0F0F0;
+}
+#page1{
+	width: 70%;
+	height: 80rem;
+	margin: 2rem auto;
+	background-color: white;
+}
+			    .search{position: relative;width: 95%;height: 2rem;margin: 1rem auto;background-color: white;padding-top: 1.5rem;padding-bottom: 1rem;}
+			    .search hr{margin-top: 3rem;}
+			    .search span{display: block;width: 18%;height: 3rem;top: 3rem;background: white;
+			                   position: absolute;text-align: center;color: gray;font-size: 1.5rem;margin-left: 40%;}
+			   
+			   .pagelist1{width:95%;height:19rem;float:left;display: flex;flex-wrap:wrap;margin: 2%;}
+		       .pagelist1 span{width: 30%;height:18rem;float: left;box-shadow: 2px 2px 3px;
+		                          margin-left: 20px;position: relative;overflow: hidden}
+		       .pagelist1 span img{transition: 1s linear;width: 100%;height:220px;}
+		       .pagelist1 span img:hover{transform: scale(1.02);box-shadow: 4px 4px 6px;}     
+		       .pagelist1 span p{display: block;width: 45%;height: 6em;border: 1px solid saddlebrown;top: -1.1rem;left: -7.8rem;
+		                           position: absolute; border-left:1px solid rgba(0,0,0,0);border-right: 85px solid transparent; 
+		                           border-top: 85px solid #FF5046;border-bottom: 85px solid transparent;} 
+		       .pagelist1 span h1{position: absolute;top: -0.6rem;margin-left: 1rem;;color: white;}
+		       .pagelist1 span a{font-size: 1.3rem;margin-left: 2%;}
+		       .pagelist1 span:hover a{color: red;}
+		       
+		       .pagelist2{width:95%;height:55rem;float:left;display: flex;flex-wrap:wrap;margin: 2% ;}
+		       .pagelist2 span{width: 22%;height:15.5rem;float: left;box-shadow: 2px 2px 3px;
+		                         margin-left: 20px;position: relative;overflow: hidden}
+		       .pagelist2 span img{width: 100%;height:200px;transition: 1s linear;}
+		       .pagelist2 span img:hover{transform: scale(1.02);box-shadow: 4px 4px 6px;}     
+		       .pagelist2 span p{display: block;width: 40%;height: 30px;border: 1px solid saddlebrown;top: -1rem;left: -7rem;
+		                         position: absolute; border-left:1px solid rgba(0,0,0,0);border-right: 85px solid transparent; 
+		                          border-top: 85px solid rgba(51,51,51,0.7);border-bottom: 85px solid transparent;}
+		      
+		       .pagelist2 span h2{position: absolute;top: -1.1rem;margin-left: 0.3rem;color: white;}
+			   .pagelist2 span a{font-size: 1.2rem;margin-left: 2%;}
+		       .pagelist2 span:hover a{color: red;}

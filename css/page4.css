@@ -1,0 +1,57 @@
+body{background-color: #F0F0F0;}
+			 #page4{width: 70%;height:160rem;background-color: white;margin:2rem auto;}
+			.backgroundpic{width: 95%;height: 27rem;margin:2rem auto;}
+			.backgroundpic img{width: 100%;height: 25rem;position:relative;float: none;margin-top: 2rem;}
+			
+			.topnews_searsh{width: 95%;height: 3rem;margin: auto;display: flex;justify-content: space-between;border-bottom: 1px solid silver;}
+			.topnews_searsh span{width: 20%;height: 3rem;display: flex;}
+			.topnews_searsh span .icon{ width: 15%;height: 3rem;fill: orangered;}
+			.topnews_searsh p{width: 8%;height: 3rem;margin-top: 0;display: flex;}
+			.topnews_searsh p .icon{ width:25%;height: 3rem;fill: orangered;}
+			.topnews_searsh a{display:block;color: black;line-height: 3rem;margin-left: 0.5rem;margin-right: 0.5rem;}
+			
+			
+			.topnewslist{width: 95%;height:26rem;margin: 1rem auto;background-color: white;}
+			.topnewslist div{width: 31%;height:11rem;float: left;box-shadow: 2px 2px 3px;margin-left: 1rem;position: relative;overflow: hidden;margin-top: 1rem;}
+		    .topnewslist span {width: 100%;height:8rem;overflow: hidden;}
+		    .topnewslist img{width: 100%;height:8rem;transition: 1s linear;}
+		    .topnewslist span img:hover{transform: scale(1.05);} 
+		    .topnewslist div h4{   margin-top: 0.4rem;margin-left: 0.4rem;font-size: 1rem;font-weight: 500;}
+		    
+			.starsearch{width: 95%;height: 3rem;margin:1rem auto;display: flex;justify-content: space-between;border-bottom: 1px solid silver;}
+			.starsearch span{width: 20%;height: 3rem;display: flex;}
+			.starsearch span .icon{ width: 15%;height: 3rem;fill: orangered;}
+			.starsearch p{width: 8%;height: 3rem;margin-top: 0;display: flex;}
+			.starsearch p .icon{ width:25%;height: 3rem;fill: orangered;}
+			.starsearch a{display:block;color: black;line-height: 3rem;margin-left: 0.5rem;margin-right: 0.5rem;}
+			
+			.star{width: 95%;height: 11rem;margin:1rem auto;display: flex;justify-content: flex-start;}
+			.star span{width: 12%;height: 9rem;margin:1rem;text-align: center;color: darkred;font-size: 1rem;}
+			.star span img{width: 100%;height: 7rem;border-radius: 50%;margin-bottom: 0.3rem;}
+			
+			
+				
+		 	.starwork{width: 95%;height: 46rem;display: flex;flex-wrap: wrap;margin: 1rem auto;justify-content: space-between;}
+		    .starwork div{width: 23%;height:14rem;float: left;position: relative;overflow: hidden;transition: all 0.5s linear;}
+		    .starwork div:hover{box-shadow: grey 4px 4px 3px;transform: translateY(-0.2rem);}
+		    .starwork span {width: 100%;height:10rem;overflow: hidden;position: relative;}
+		    .starwork img{width: 100%;height:10rem;}
+		    .starwork span .shadow{background: rgba(7,18,10,0.8);width: 100%;height:10rem;position: absolute;transition: all 0.5s linear;opacity: 0;z-index: 999;top: -9rem;}
+		    .starwork span:hover .shadow{opacity: 1;}
+		    .starwork span .shadow .icon{ width: 40%;height: 2rem;padding-top: 4rem;padding-left: 3.5rem;fill: white;}
+            .starwork div h4{   margin-top: 0.4rem;margin-left: 0.4rem;font-size: 0.8rem;}
+		    
+			
+			 
+			.join_orgnization{width: 95%;height: 11rem;margin:1rem auto;display: flex;justify-content: flex-start;}
+			.join_orgnization span{width: 12%;height: 9rem;margin:1rem;text-align: center;color: darkred;font-size: 0.8em;color: gray;font-weight: 550;}
+			
+			.join_orgnization span img{width: 100%;height: 7rem;border-radius: 50%;margin-bottom: 0.3rem;transition: all 1s linear;}
+			.join_orgnization span img:hover{transform: scale(1.1);}
+			 
+			.partner{width: 95%;height: 8rem;margin:1rem auto;display: flex;justify-content: flex-start;}
+			.partner span{width: 10%;height: 6rem;margin:1rem;text-align: center;color: darkred;font-size: 0.8em;color: gray;font-weight: 550;}
+			
+			.partner span img{width: 100%;height: 6rem;margin-bottom: 0.3rem;transition: all 1s linear;}
+			
+			 

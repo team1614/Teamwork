@@ -1,0 +1,23 @@
+body{background-color: #F0F0F0;}
+			#page3{width: 70%;height: 70rem;margin: 2rem auto;background-color: white;padding-top: 2rem;}
+			#page3 div{width: 31%;height:12.5rem;float: left;box-shadow: 2px 2px 3px;margin-left: 1rem;position: relative;overflow: hidden;margin-top: 1rem;}
+		    #page3 span {width: 100%;height:9rem;overflow: hidden;}
+		    #page3 img{width: 100%;height:9rem;transition: 1s linear;}
+		    #page3 span:hover img{transform: scale(1.05);} 
+		    #page3 div p{position: absolute;display: block;width: 100%;height: 2rem;
+		                      background: rgba(22,22,22,0.8);top: 7rem;color: white;}
+		    #page3 div .icon{ width: 10%;height: 1.7rem;}
+		    #page3 div a{position: absolute;display: block;width: 100%;height: 2rem; top: 7.5rem;color: white;margin-left: 2rem;}
+		    #page3 div h4{   margin-top: 0.4rem;margin-left: 0.4rem;font-size: 1rem;font-weight: 500;}
+		    
+		    
+			  #page3 ul{list-style: none;margin-left: 28%;}
+			  #page3 ul li{width: 2rem;height: 2rem;float: left;margin-left; border-radius: 0.3rem;margin: 5rem auto;margin-right: 0.2rem;}
+			  #page3 ul li:nth-of-type(10){background: none;border: none;text-align: center;line-height: 2rem;}
+			 
+			  #page3 ul li a{display: block;font-size: 1rem;text-align: center;color: black;text-decoration: none;width: 2rem;height: 2rem;
+			                     background-color: #F0F0F0;border-radius: 0.3rem;text-align: center;line-height: 2rem;font-weight: 400;}
+			  
+			  #page3 ul li:hover a{background-color: #FF734E;color: white;}
+		      #page3  ul li .icon{ width: 50%;height: 1.7rem;padding-left: 0.3rem;}
+		     
