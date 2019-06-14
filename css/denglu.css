@@ -57,7 +57,7 @@ li a:hover{
 }
 .bg{
 	height: 27.25rem;
-	background-image: url(img/1.png);
+	background-image: url(../img/1.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
